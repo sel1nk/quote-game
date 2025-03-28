@@ -1,19 +1,52 @@
 .App {
   text-align: center;
+  /* margin: 1 5rem; */
+}
+.section-one{
+  height: 100vh; /* Full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('resim.gif'); /* Add your image */
+  background-size: cover;
+  background-position: center bottom;
+  color: white;
+}
+.welcome-header h1{
+  font-size: 10vh;
+  
+}
+.welcome-header p{
+  margin-bottom: 20vh;
+  letter-spacing: 3px;
+}
+.section-two {
+  justify-content: center;
+  height: 70vh;
+  margin-top: 30vh; /* Bu sayfayı uzatıyor */
+}
+.option-btn{
+  height: 10rem;
+  width: 30%;
+  margin: 0 2rem;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.option-btn:hover{
+  background-color: #fac892;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,9 +57,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +65,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
