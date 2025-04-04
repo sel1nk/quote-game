@@ -214,12 +214,14 @@ const restart = () =>{
 
       <section className = "section-two">
       {currentQuote === gameOver ? 
-      (<div><p>{gameOver}</p>
-      <p>You have answered {correctCount} questions correctly!</p>
+      (<div className="over">
+        <p>{gameOver}</p>
+        <p>You have answered {correctCount} questions correctly!</p>
       <button className="restart-btn" onClick={restart}> Restart </button></div>
       ) : ( <>
-      <p>{whoSaidIt[currentQuote].quote}</p>
+      
       <div className = "Options">
+      <p>{whoSaidIt[currentQuote].quote}</p>
         {whoSaidIt[currentQuote].options.map((option, index) => (
           <button className= "option-btn" key={index} onClick={() => handleUserAnswer(option)}>
           {option}
