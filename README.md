@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# About The Game
+
+❓Dictator Quotes Game is a dark-humor trivia game that challenges players to guess whether shocking and outrageous quotes were actually said by real-world dictators or are completely made up. The game blends historical facts with absurd fiction, testing your knowledge of authoritarian rhetoric in an engaging, controversial, and sometimes unbelievable way. 
+
+❓It’s designed to;
+✅spark curiosity, 
+✅provoke thought, 
+✅and maybe even a laugh or two—if you're into dystopian satire. 
+
+🔅Perfect for history buffs, trivia lovers, or anyone with a taste for the bizarre.
+
+↪️I have used JavaScript with React, HTML & CSS. You can find the source code along with the pictures and giffs. Have fun playing and exploring the twisted world of tyranny, where truth is stranger than fiction, and the horrors of history echo through every unbelievable quote.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
